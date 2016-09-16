@@ -1,6 +1,36 @@
 @import url(../fonts/news-cycle/news-cycle.css);
 
-.reveal section img {
+.reveal section:not(:first-child), .reveal .slides > section > section.present {
+  top: 0 !important;
+}
+
+.process_img > section > img {
+  width: 80%;
+  height: 80%;
+  margin-bottom: 30px;
+}
+
+.reveal section > ul > li {
+  margin-bottom: 30px;
+}
+
+.triple > div > img {
+  /*width: 30%;
+  height: 30%;*/
+}
+
+.big-number > p {
+  /*display: inline-block;
+  vertical-align: middle;
+  line-height: normal;*/
+  top: 266px;
+}
+
+.big-number > p > span > strong {
+  font-size: 280px;
+}
+
+/*.reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.0);
   border: 0px solid #222;
@@ -13,5 +43,5 @@
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
   font-family: 'News Cycle', Helvetica, sans-serif;
   text-transform: none;
-}
+}*/
 
