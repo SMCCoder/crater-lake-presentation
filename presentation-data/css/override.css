@@ -1,6 +1,6 @@
 @import url(../fonts/news-cycle/news-cycle.css);
 
-.reveal section:not(:first-child), .reveal .slides > section > section.present {
+.reveal section:not(:first-child):not(:last-child), .reveal .slides > section > section.present {
   top: 0 !important;
 }
 
@@ -28,6 +28,15 @@
 
 .big-number > p > span > strong {
   font-size: 280px;
+}
+
+.vocab > p {
+  font-size: 30px;
+  text-align: left;
+}
+
+.vocab > p > strong {
+  font-size: 40px;
 }
 
 /*.reveal section img {
